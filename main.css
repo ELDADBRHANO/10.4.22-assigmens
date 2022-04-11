@@ -1,0 +1,93 @@
+@media screen and(min-width: 600px) {
+  #tiger {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #tiger {
+    height: 30px;
+    width: 30px;
+  }
+}
+/* --------------------------------------------------------- */
+
+@media screen and (min-width:600px) {
+  #first {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #first {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width:600px) {
+  #sec {
+    background-color: green
+  }
+}
+  @media screen and(max-width:600px) {
+    #sec {
+      color: yellow;
+    }
+  }
+ /* --------------------------------------------------------- */
+
+  @media screen and (min-width:600px){  
+    .thir{
+      background-image: url(/mountain.jfif);
+    }
+    #forest{
+      display: none;
+    }
+}
+@media screen and (max-width:600px){
+ .thir{
+   background-image:url(/forest.jfif)
+  }
+  #moun{
+    display: none;
+  }
+}
+.thir{
+  background-color: rgb(255, 0, 0);
+  width: 20vw;
+  height: 20vh;
+}
+
+/* ----------------------------------------------- */
+@media screen and (min-width:600px){
+   .blue{
+    width: 40vw;
+    height: 40vh;
+    background-color: blue;
+    border-radius: 70%;
+    margin-top: 10%;
+  } 
+}
+@media screen and (max-width:600px){
+  .blue{
+   width: 40vw;
+   height: 40vh;
+   background-color: blue;
+   border-radius: 0%;
+ } 
+}
+
+/* ------------------------------------------------------ */
+@media screen and (min-width:600px){
+  #cast{
+    background-image: url("/cast.jfif");
+    filter: blur(5px);
+  }
+}
+@media screen and (max-width:600px){
+  #cast{
+    background-image: url("/cast.jfif");
+    filter: grayscale(100%);
+  }
+}
