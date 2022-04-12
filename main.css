@@ -39,7 +39,7 @@
 
   @media screen and (min-width:600px){  
     .thir{
-      background-image: url(/mountain.jfif);
+      background-image: url("imges/mountain.jfif");
     }
     #forest{
       display: none;
@@ -47,7 +47,7 @@
 }
 @media screen and (max-width:600px){
  .thir{
-   background-image:url(/forest.jfif)
+   background-image:url("imges/forest.jfif")
   }
   #moun{
     display: none;
@@ -81,13 +81,13 @@
 /* ------------------------------------------------------ */
 @media screen and (min-width:600px){
   #cast{
-    background-image: url("/cast.jfif");
+    background-image: url("imges/cast.jfif");
     filter: blur(5px);
   }
 }
 @media screen and (max-width:600px){
   #cast{
-    background-image: url("/cast.jfif");
+    background-image: url("imges/cast.jfif");
     filter: grayscale(100%);
   }
 }
